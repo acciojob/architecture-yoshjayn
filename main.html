@@ -1,16 +1,118 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Architecture Webpage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      width: 1100px;
+      margin: 20px auto;
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .imageContainer img {
+      width: 100%;
+      height: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+
+    table td {
+      padding: 10px;
+      text-align: center;
+      vertical-align: top;
+    }
+
+    table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    table tr:nth-child(odd) {
+      background-color: #fff;
+    }
+
+    td:first-child, td:last-child {
+      width: 200px;
+    }
+
+    td:nth-child(2) {
+      width: 600px;
+      text-align: left;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+
+    .text-content {
+      padding: 10px;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      font-size: 12px;
+      background: #333;
+      color: white;
+      border-top: 1px solid #ddd;
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+  <div class="container">
+    <div class="imageContainer">
+      <img src="main-image.png" alt="Architectural Design">
+    </div>
+    <table>
+      <tr>
+        <td><div class="imageContainer"><img src="side-image1.png" alt="Design Image"></div></td>
+        <td class="text-content">
+          <h3>Unit #5 - Floor Plans</h3>
+          <ul>
+            <li>A. Kitchen</li>
+            <li>B. Bathroom</li>
+            <li>C. Using "Slabs"</li>
+            <li>D. Georgian Home</li>
+            <li>E. Sketching Assignment #5</li>
+          </ul>
+        </td>
+        <td><div class="imageContainer"><img src="side-image2.png" alt="Spiral Stairs"></div></td>
+      </tr>
+      <tr>
+        <td><div class="imageContainer"><img src="side-image3.png" alt="House Plans"></div></td>
+        <td class="text-content">
+          <h3>Objective</h3>
+          <p>Discuss factors that are important in the design of bedrooms. Plan the size and location of closets for a typical residence. Plan a furniture arrangement for a room. Implement important design considerations for bathrooms.</p>
+          <p>Plan a bathroom that follows solid design principles. Design a functional kitchen to meet a family’s needs. Plan an efficient clothes care center and describe appropriate dimensions for garage space.</p>
+        </td>
+        <td><div class="imageContainer"><img src="side-image4.png" alt="Green Floor"></div></td>
+      </tr>
+    </table>
+  </div>
+  <!-- <footer>
+    &copy; 2025 Architecture Webpage. All Rights Reserved.
+  </footer> -->
 </body>
-
 </html>
